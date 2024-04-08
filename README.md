@@ -325,3 +325,17 @@ webpack-bundle-analyzer-plugin - https://github.com/webpack-contrib/webpack-bund
 resolve - https://webpack.js.org/configuration/resolve/#root
 devServer - https://webpack.js.org/configuration/dev-server/#root
 devtool - https://webpack.js.org/configuration/devtool/#devtool
+
+
+
+# Code Splitting
+간단한 실습
+
+## 실습절차
+1. 빈 폴더에서 명령어로 package.json 파일 생성
+ 이후 내용은 code_splitting 폴더 및 아래 URL 참조
+ https://joshua1988.github.io/webpack-guide/tutorials/code-splitting.html#%EC%8B%A4%EC%8A%B5-%EC%A0%88%EC%B0%A8
+
+
+
+
