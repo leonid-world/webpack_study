@@ -96,3 +96,13 @@ export function sum(a,b) {
 
 
 # 웹팩의 주요 속성 4가지
+ ## Entry
+ 웹팩을 돌리기 위한 자바스크립트의 진입점
+
+ ## Output
+ 웹팩을 돌리고 난 결과물의 파일 경로
+
+ ## Loader
+ code_splitting 폴더 참조
+
+ ## 
