@@ -50,7 +50,7 @@ devDependencies - 개발용 라이브러리
 
 # 웹팩이란?
 모듈 번들러(Module Bundler)
-
+모듈 번들러란, 웹앱을 구성하는 자원(HTML, JS, CSS, Image 등)을 모두 각각의 모듈로 보고 이를 조합해 병합된 하나의 결과물을 만드는 도구이다.
 
 ## 실습 #1 - 웹팩 맛보기
 getting-started 폴더
@@ -62,3 +62,37 @@ build 시 mode 설정이 가장 중요!!
 development , production, none 3가지가 존재.
 기본적으로 none.
 ex) build : webpack --mode=none
+
+
+
+
+
+
+
+
+# gulp 구성
+
+
+
+
+## 그래서, 모듈이란?
+프로그래밍 관점에서 특정 기능을 갖는 작은 코드 단위이다.
+ex)
+
+//math.js
+export function sum(a,b) {
+    return a + b;
+}
+
+
+## 웹 개발 작업 자동화 도구
+
+## 웹팩으로 해결할 수 있는 문제
+- 자바스크립트 변수 유효 범위
+- 브라우저별 HTTP요청 숫자의 제약
+- 사용하지 않는 코드 관리
+- Dynamic Loading & Lazy Loading 미지원
+
+
+
+# 웹팩의 주요 속성 4가지
